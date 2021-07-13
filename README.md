@@ -19,6 +19,16 @@ Some of the Features included in this app are:
 - Meditation
 - Posture Checker
 
+### Home Page
+![Home-Page](https://user-images.githubusercontent.com/58457452/125500171-2e77de74-8024-46ed-a109-297132e120e0.png)
+
+### Request from other user
+![Request from other user](https://user-images.githubusercontent.com/58457452/125501182-fc3c9bae-3992-4cd3-b453-57321da5a92c.jpeg)
+
+### Meditation
+![alt text](https://user-images.githubusercontent.com/58457452/125500213-8b9bac3a-c405-4897-b55c-1edd1f278d88.png)
+
+
 ## Agile Methodology
 
 ### Sprint Wise Division of Tasks Monitored by Trello Sprint Board
