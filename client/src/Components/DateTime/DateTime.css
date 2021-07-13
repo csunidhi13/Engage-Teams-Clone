@@ -1,0 +1,14 @@
+.dt{
+    /* display: flex; */
+}
+@media  only screen and (max-width:635px) {
+    .dt{
+        /* display: none; */
+        font-size: 0.75em;
+    }
+}
+@media  only screen and (max-width:320px) {
+    .dt{
+        display: none;
+    }
+}

@@ -1,0 +1,109 @@
+.join-page {
+  padding-top: 5%;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  margin: auto;
+  text-align: center;
+  /* background-color: white; */
+  /* #B8B5FF,rgb(160, 158, 163),#BEAEE2, */
+  height: 100vh;
+  background-image: url('../../assets/cool-background.svg');
+  /* background: linear-gradient(-45deg,#8f98fd,#cccfeb,#afb4ff); */
+  background-size: cover;
+  /* background-color: rgb(208, 240, 255); */
+  background-repeat: no-repeat;
+  /* animation: gradient 15s ease infinite; */
+}
+
+.ready h2{
+  margin: auto;
+  font-size:30px;
+  padding: 20px;
+  color: white;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  text-decoration-color: white;
+
+}
+
+.join-page .video-div video {
+  transform: rotateY(180deg);
+  -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+  -moz-transform:rotateY(180deg); /* Firefox */
+  width: 80%;
+  height: 60%;
+  box-shadow: 5px 5px 3px grey;
+  border-radius: 10px;
+  /* padding: 5px; */
+}
+
+.join-page input {
+  align-self: center;
+  margin-top: 5%;
+  padding: 0.5rem;
+  border: 2px solid #d1d1d1;
+  outline: none;
+  border-radius: 10px;
+  width: 70%;
+  font-size: 18px;
+  box-shadow: 5px 5px 3px grey;
+  transition-duration: 0.4s;
+  z-index: 100;
+}
+
+.join-page input:focus {
+  border-color: #2cbdc7;
+}
+
+.join-page .join-btns-div {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: auto;
+  padding: 1rem 0.5rem;
+}
+
+.join-page .join-btns-div .btn {
+  margin: auto;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  border: 2px solid grey;
+  background-color: #336ba0;
+  color: white;
+  transition-duration: 0.4s;
+}
+
+.join-page .join-btns-div .btn:hover {
+  background-color: #1b8299;
+  color: white;
+}
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .join-page .join-btns-div {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .join-page .video-div video {
+    width: 70%;
+    height: 50%;
+  }
+}

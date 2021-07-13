@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jua&family=Skranji:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spinnaker&display=swap");
+.navbar {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  height: 8vh;
+  padding: 0 10px;
+  border-width: 10px;
+  border-bottom: 1px solid #a59ae2;
+  }
+
+.navbar .title-div {
+  align-items: center;
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  grid-column-gap: 10px;
+}
+
+.navbar .title-div img {
+  height: 70%;
+}
+
+.navbar .title-div h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  /* font-weight: 400; */
+  margin: auto 0;
+  color: rgb(0, 0, 0);
+}
+
+.timer {
+  margin-bottom: 0.5em;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  grid-column-gap: 5px;
+  width: auto;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  
+}
+
+.navbar .repo svg {
+  fill: #fade0a;
+  font-size: 30px;
+}
+
+/* .navbar .repo .repo-text {
+  text-align: left;
+  display: block;
+} */
+
+.navbar .repo .repo-text .repo-name {
+  font-size: 11px;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar .repo .repo-text .github-name {
+  font-size: 15px;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+@media only screen and (max-width:635px){
+  h1{
+    font-size: 1em;
+  }
+  
+}
